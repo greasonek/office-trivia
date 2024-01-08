@@ -1,11 +1,12 @@
 import Header from './Header';
+import { Paper } from '@mui/material';
 
 function Game () {
   return (
-    <>
+    <div className='game'>
       <Header/>
-      <h2>Game Page</h2>
-    </>
+      <Paper className='question'>Q1</Paper>
+    </div>
   )
 }
 export default Game;

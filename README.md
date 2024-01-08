@@ -16,4 +16,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
   - Imported react router dom
   - Created multiple pages (home, about me, login, game) with navigation between pages
   - Added styling with MUI
-  - Added background images to home and about
+  - Added background images to home, game and about
