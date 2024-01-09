@@ -32,7 +32,7 @@ export const data = [
     answer: 3
   },
   {
-    question: "Who does Michael award 'Hottest in the office' at the 8th annual Dundie Awards?",
+    question: "Who does Michael award 'Hottest in the Office' at the 8th annual Dundie Awards?",
     option1: "Ryan",
     option2: "Jim",
     option3: "Pam",
