@@ -1,0 +1,57 @@
+body {
+  background-color: #F4EBD0 ;
+  margin: 0;
+}
+
+/* .game {
+  width: 100%;
+  background: url('../img/the-office-trivia-game.jpg');
+  background-size: cover;
+} */
+
+.question {
+  border-radius: 10px;
+  display:flex;
+  flex-direction: column;
+  gap: 20px;
+  margin: auto;
+  margin-left: 195px;
+  margin-top: 50px;
+  padding: 40px 50px;
+  text-align: center;
+  width: 540px;
+}
+
+.question hr {
+  height: 2px;
+  border: none;
+}
+
+.choices ul li {
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  cursor:pointer;
+  display: flex;
+  font-size: 15px;
+  height: 70px;
+  justify-content: center;
+  margin-bottom: 20px;
+  padding-right: 15px;
+}
+
+.index {
+  margin: auto;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.choices .correct{
+  background: #dffff2;
+  border-color: #00d397;
+}
+
+.choices .wrong {
+  background: #ffebeb;
+  border-color: #ff4a4a;
+}
