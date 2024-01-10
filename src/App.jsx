@@ -5,6 +5,7 @@ import Info from './components/Info';
 import Game from './components/Game';
 import Error from './components/errorHandling/Error';
 import Login from './components/Login';
+import Rules from './components/Rules';
 
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
@@ -17,6 +18,7 @@ function App() {
           <Route index element={<Home/>} />
           <Route path='/home' element={<Home/>}/>
           <Route path='/info' element={<Info/>}/>
+          <Route path="/rules" element={<Rules/>}/>
           <Route path='/game' element={<Game/>}/>
           <Route path='login' element={<Login/>} />
           <Route path='*' element={<Error/>}/>

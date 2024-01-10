@@ -14,6 +14,7 @@ function Header () {
       <ul>
           <Button variant='text' ><a href='/' className="home">Home</a></Button>
           <Button><a href='/info' className="home">About</a></Button>
+          <Button><a href='/rules' className="rules">Rules</a></Button>
       </ul>
       <div className="login">
         <ul>
