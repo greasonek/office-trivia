@@ -27,4 +27,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
     - Next button leads to next question until the end of the game
     - Score is displayed at the end of the game with a reset button
   - Took off Login button from header and commented out all login button related code from App.js and Header.js
-
