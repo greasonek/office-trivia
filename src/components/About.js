@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import { Paper } from '@mui/material';
 
-function Info () {
+function About () {
   return (
     <div className='about'>
       <Header/>
@@ -19,4 +19,4 @@ function Info () {
     </div>
   )
 }
-export default Info;
+export default About;
