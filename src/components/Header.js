@@ -8,17 +8,37 @@ function Header () {
   const handleLogIn = () => {
     navigate('/login');
   } 
+  const handleAbout = () => {
+    navigate('./about');
+  }
+  // const handleHome = () => {
+  //   navigate('./home');
+  // }
   
   return (
     <div className="nav">
       <ul>
+          {/* <Button sx={{
+                textDecoration: 'none', 
+                color: 'black', 
+                fontFamily: 'Helvetica', 
+                fontSize: 23, 
+                marginTop:1.5}} 
+                onClick={handleHome}>Home</Button> */}
           <Button variant='text' ><a href='/' className="home">Home</a></Button>
-          <Button><a href='/info' className="home">About</a></Button>
-          <Button><a href='/rules' className="rules">Rules</a></Button>
+          {/* <Button><a href='/about' className="home">About</a></Button> */}
+          <Button sx={{
+            textDecoration: 'none', 
+            color: 'black', 
+            fontSize: 23, 
+            marginTop:1.45}} 
+            onClick={handleAbout}>About</Button>
       </ul>
       <div className="login">
         <ul>
-          <Button onClick={handleLogIn}><PersonIcon sx={{ color: "darkblue"}} >login</PersonIcon></Button>
+          <Button onClick={handleLogIn}>
+            <PersonIcon sx={{ color: "darkblue"}} >login</PersonIcon>
+          </Button>
         </ul>
       </div>
     </div>
