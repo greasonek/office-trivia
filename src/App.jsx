@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Home from './components/Home';
-import About from './components/About';
+// import About from './components/About';
 import Game from './components/Game';
 import Error from './components/errorHandling/Error';
 // import Login from './components/Login';
@@ -16,7 +16,7 @@ function App() {
         <Routes>
           <Route index element={<Home/>} />
           <Route path='/home' element={<Home/>}/>
-          <Route path='/about' element={<About/>}/>
+          {/* <Route path='/about' element={<About/>}/> */}
           <Route path='/game' element={<Game/>}/>
           {/* <Route path='login' element={<Login/>} /> */}
           <Route path='*' element={<Error/>}/>
