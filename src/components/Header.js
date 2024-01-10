@@ -13,7 +13,7 @@ function Header () {
     <div className="nav">
       <ul>
           <Button variant='text' ><a href='/' className="home">Home</a></Button>
-          <Button><a href='/about' className="home">About</a></Button>
+          <Button><a href='/info' className="home">About</a></Button>
       </ul>
       <div className="login">
         <ul>
