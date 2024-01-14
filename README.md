@@ -27,3 +27,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
     - Next button leads to next question until the end of the game
     - Score is displayed at the end of the game with a reset button
   - Took off Login button from header and commented out all login button related code from App.js and Header.js
+
+- January 12, 2024
+  - Added more questions to the game
+
+- January 14, 2024
+  - Added remaining questions to the game (20 total)
+  - Edited Login Page to say Coming Soon!
+  - Edited About page to take away the "loging to save your score" feature
+  

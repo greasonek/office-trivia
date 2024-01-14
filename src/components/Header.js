@@ -27,11 +27,13 @@ function Header () {
                 onClick={handleHome}>Home</Button> */}
           <Button variant='text' ><a href='/' className="home">Home</a></Button>
           {/* <Button><a href='/about' className="home">About</a></Button> */}
-          <Button sx={{
+          <Button 
+          sx={{
             textDecoration: 'none', 
             color: 'black', 
-            fontSize: 23, 
-            marginTop:1.45}} 
+            fontSize: 22, 
+            marginTop:1.2,
+          }} 
             onClick={handleAbout}>About</Button>
       </ul>
       <div className="login">
